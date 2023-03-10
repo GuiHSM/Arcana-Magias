@@ -1,0 +1,27 @@
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+
+body {
+
+
+}
+
+h1 {
+
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 4em;
+}
+
+#geradorDeMagias {
+    font-family: sans-serif;
+    color: aliceblue;
+    margin-left: 40%;
+    margin-top: 10%;
+    
+}
+
+#pedro {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: -20%;
+    
+}
