@@ -1,0 +1,4 @@
+var tipo ={
+    Divina,
+    Arcana,
+  }
