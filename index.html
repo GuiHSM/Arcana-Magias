@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-    
-    <title>Arcana Magias de Cria</title>
+    <link rel="icon" type="image/png" href="images/pedroMagias.png" />
+
+    <title>Gerador de Magias</title>
 </head>
 
 <body>
@@ -18,98 +19,101 @@
     <div id='stars2'></div>
     <div id='stars3'></div>
     <div id='title'>
-      <span>
-        GERADOR DE MAGIAS
-      </span>
-      
+        <span>
+            GERADOR DE MAGIAS
+        </span>
+
     </div>
 
 
     <div id="geradorDeMagias">
 
-    <form action="" id="magias">
-        <div>
-            <label for="nome"> Nome:</label>
-            <input type="text">
-        </div>
-        <div>
-            <label for="circulo-select">Circulo:</label>
+        <form action="" id="magias">
+            <div>
+                <label for="nome"> Nome:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="circulo-select">Circulo:</label>
 
-            <select name="circulos">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-            </select>
-        </div>
-        <div>
-            <label for="escola">Escola:</label>
+                <select name="circulos">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div>
+                <label for="escola">Escola:</label>
 
-            <select name="escola">
-                <option value="abjuracao">Abjuração</option>
-                <option value="adivinhacao">Adivinhação</option>
-                <option value="convocacao">Convocação</option>
-                <option value="encantamento">Encantamento</option>
-                <option value="evocacao">Evocação</option>
-                <option value="ilusao">Ilusão</option>
-                <option value="necromancia">Necromancia</option>
-                <option value="transmutacao">Transmutação</option>
-            </select>
-        </div>
-        <div>
-            <label for="divina">Divina</label>
-            <input type="checkbox">
-            <label for="Arcana">Arcana</label>
-            <input type="checkbox">
-        </div>
-        <div>
-            <label for="execucoes">Execução:</label>
+                <select name="escola">
+                    <option value="abjuracao">Abjuração</option>
+                    <option value="adivinhacao">Adivinhação</option>
+                    <option value="convocacao">Convocação</option>
+                    <option value="encantamento">Encantamento</option>
+                    <option value="evocacao">Evocação</option>
+                    <option value="ilusao">Ilusão</option>
+                    <option value="necromancia">Necromancia</option>
+                    <option value="transmutacao">Transmutação</option>
+                </select>
+            </div>
+            <div>
+                <label for="divina">Divina</label>
+                <input type="checkbox">
+                <label for="Arcana" id="arcana">Arcana</label>
+                <input type="checkbox" id="arcanaCheckbox">
+            </div>
+            <div>
+                <label for="execucoes">Execução:</label>
 
-            <select name="execucao">
-                <option value="padrao">Padrão</option>
-                <option value="completa">Completa</option>
-                <option value="dosiTurnos">Dois Turnos</option>
-                <option value="movimento">Movimento</option>
-                <option value="reacao">Reação</option>
-                <option value="livre">Livre</option>
-            </select>
-        </div>
-        <div>
-            <label for="alcances">Alcance:</label>
+                <select name="execucao">
+                    <option value="padrao">Padrão</option>
+                    <option value="completa">Completa</option>
+                    <option value="dosiTurnos">Dois Turnos</option>
+                    <option value="movimento">Movimento</option>
+                    <option value="reacao">Reação</option>
+                    <option value="livre">Livre</option>
+                </select>
+            </div>
+            <div>
+                <label for="alcances">Alcance:</label>
 
-            <select name="alcance">
-                <option value="pessoal">Pessoal</option>
-                <option value="toque">Toque</option>
-                <option value="curto">Curto</option>
-                <option value="medio">Médio</option>
-                <option value="longo">Longo</option>
-                <option value="ilimitado">Ilimitado</option>
-                
-            </select>
-        </div>
-        <div>
-            <label for="alvoArea"> Alvo ou Área:</label>
-            <input type="text">
-        </div>
-        <div>
-            <label for="duracao">Duração:</label>
-            <input type="text">
-        </div>
-        <div>
-            <label for="resistencia"> Resistência:</label>
-            <input type="text">
-        </div>
-        <div>
-            <label for="descricao"> Descrição:</label>
-            <input type="text">
-        </div>
-        <div id="pedro">
-            <img src="images/pedroMagias.png" width="200" height="200" alt="pedro magias">
-        </div>
-    </form>
-</div>
-    
+                <select name="alcance">
+                    <option value="pessoal">Pessoal</option>
+                    <option value="toque">Toque</option>
+                    <option value="curto">Curto</option>
+                    <option value="medio">Médio</option>
+                    <option value="longo">Longo</option>
+                    <option value="ilimitado">Ilimitado</option>
+
+                </select>
+            </div>
+            <div>
+                <label for="alvoArea"> Alvo ou Área:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="duracao">Duração:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="resistencia"> Resistência:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="descricao"> Descrição:</label>
+                <input type="text">
+            </div>
+            <div>
+                <input type="button" value="Upload" id="botaoUp">
+            </div>
+
+            <div id="pedro"> </div>
+            
+        </form>
+    </div>
+
 </body>
 
 </html>

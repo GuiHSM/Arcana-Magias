@@ -1,9 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/harry-potter');
 
-body {
-
-
-}
+body {}
 
 h1 {
 
@@ -12,16 +9,60 @@ h1 {
 }
 
 #geradorDeMagias {
+
     font-family: sans-serif;
     color: aliceblue;
     margin-left: 40%;
     margin-top: 10%;
-    
+    position: relative;
+
 }
 
 #pedro {
+
+    width: 300px;
+    height: 300px;
+    background: url(images/pedroMagias0.png) no-repeat;
+    display: inline-block;
+    background-size: 300px 300px;
+    margin-left: 7.3%;
+    margin-top: 5%;
+    border-radius: 50%;
     position: absolute;
-    margin-left: 25%;
-    margin-top: -20%;
+
+}
+
+#pedro:hover {
+
+    background: url(images/pedroMagias.png) no-repeat;
+    background-size: 300px 300px; 
     
+}
+
+#arcana {
+
+    text-align: center;
+}
+
+#arcanaCheckbox {
+
+    transform: translateX(-360%);
+
+}
+
+#botaoUp {
+
+    margin-left: 18%;
+    margin-top: 1%;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-top: 5px;
+}
+
+select {
+    width: 150px;
 }
